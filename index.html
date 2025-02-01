@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Neon Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 class="title">NEON TAC TOE</h1>
+      <div class="score-board">
+        <div class="score x-score">
+          <span>X</span>
+          <div class="score-value">0</div>
+        </div>
+        <div class="score draws">
+          <span>DRAWS</span>
+          <div class="score-value">0</div>
+        </div>
+        <div class="score o-score">
+          <span>O</span>
+          <div class="score-value">0</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="game-wrapper">
+      <div class="status" id="status">Player X's turn</div>
+      <div class="game-board" id="board">
+        <button class="cell" data-index="0"></button>
+        <button class="cell" data-index="1"></button>
+        <button class="cell" data-index="2"></button>
+        <button class="cell" data-index="3"></button>
+        <button class="cell" data-index="4"></button>
+        <button class="cell" data-index="5"></button>
+        <button class="cell" data-index="6"></button>
+        <button class="cell" data-index="7"></button>
+        <button class="cell" data-index="8"></button>
+      </div>
+      <div class="controls">
+        <button class="reset-btn" id="reset">New Game</button>
+      </div>
+    </div>
+  </div>
+  <div class="particles"></div>
+  <script src="app.js"></script>
+</body>
+</html>
