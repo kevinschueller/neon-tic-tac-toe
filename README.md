@@ -2,8 +2,6 @@
 
 A modern twist on the classic game with vibrant neon visuals and smooth animations.
 
-![Game Screenshot](./screenshot.png) <!-- User should add actual screenshot later -->
-
 ## Features 🌟
 
 - 🔥 Neon-styled X's and O's with glow effects
@@ -25,7 +23,7 @@ A modern twist on the classic game with vibrant neon visuals and smooth animatio
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/username/neon-tic-tac-toe.git
+git clone https://github.com/kevinschueller/neon-tic-tac-toe.git
 ```
 
 2. Open in your preferred browser:
